@@ -1,0 +1,149 @@
+{
+	"measurement":"",
+	"substance":
+	{
+		"primaryName":"",
+		"synonym":"",
+		"CAS":""
+	},
+	"measurementMatrixRelationship":"",
+	"matrix":"",
+	"organism":
+	{
+		"taxon":"",
+		"aphiaID":"",
+		"name":"",
+		"gender":"",
+		"stage":"",
+		"part":"",
+		"specifics":""
+	},
+	"technique":"",
+	"definition":""
+}
+
+
+{
+	"measurement":"Concentration",
+	"substance":
+	{
+		"primaryName":"tributyltin cation",
+		"synonym":["tributylstannyl","TBT+"],
+		"CAS":"36643-28-4"
+	},
+	"measurementMatrixRelationship":"per unit dry weight of the",
+	"matrix":"biota",
+	"organism":
+	{
+		"taxon":"Mytilus galloprovincialis",
+		"aphiaID":"140481",
+		"name":"Mytilus galloprovincialis",
+		"gender":"unspecified",
+		"stage":"unspecified",
+		"part":"flesh",
+		"specifics":"unspecified"
+	},
+	"technique":"unspecified",
+	"definition":"Unavailable"
+}
+
+
+{
+	"measurement":"Carbon biomass",
+	"substance" :
+	{
+		"primaryName":"inapplicable",
+		"synonym":"inapplicable",
+		"CAS":"inapplicable"
+	},
+	"measurementMatrixRelationship":"per unit volume of the",
+	"matrix":"the water body",
+	"organism":
+	{
+		"taxon":"inapplicable",
+		"aphiaID":"inapplicable",
+		"name":"Scuticociliate (sp. 1)",
+		"gender":"inapplicable",
+		"stage":"inapplicable",
+		"part":"inapplicable",
+		"specifics":"Size 20-39um "
+	},
+	"technique":"optical microscopy and abundance to carbon conversion using the equation of Putt & Stoecker (1989)",
+	"definition":" Unavailable "
+}
+
+
+
+{
+	"measurement":"Concentration",
+	"substance" :
+	{
+		"primaryName":"2,3',4,4',5-pentachlorobiphenyl",
+		"synonym":"PCB118",
+		"CAS":"31508-00-6"
+	},
+	"measurementMatrixRelationship":"per unit volume of the",
+	"matrix":"water body dissolved plus reactive particulate >GF/F phase",
+	"organism":
+	{
+		"taxon":"inapplicable",
+		"aphiaID":"inapplicable",
+		"name":"inapplicable",
+		"gender":"inapplicable",
+		"stage":"inapplicable",
+		"part":"inapplicable",
+		"specifics":"inapplicable"
+	},
+	"technique":" unspecified",
+	"definition":"Amount (quantity or mass) of the specified analyte in unit volume of a GF/F filtered sample of any body of fresh or salt water. "
+}
+
+
+{
+	"measurement":"Concentration",
+	"substance" :
+	{
+		"primaryName":"nitrate+nitrite",
+		"synonym":"NO3+NO2",
+		"CAS":"unspecified"
+	},
+	"measurementMatrixRelationship":"per unit volume of the",
+	"matrix":"water body dissolved plus reactive particulate phase",
+	"organism":
+	{
+		"taxon":"inapplicable",
+		"aphiaID":"inapplicable",
+		"name":"inapplicable",
+		"gender":"inapplicable",
+		"stage":"inapplicable",
+		"part":"inapplicable",
+		"specifics":"inapplicable"
+	},
+	"technique":"unspecified",
+	"definition":" Quantity or mass of nitrate+nitrite per unit volume of a water body determined by an unknown analytical method on unfiltered water "
+}
+
+
+{
+	"measurement"	:	 "Practical salinity",
+	"substance" :
+	{
+		"primaryName":"inapplicable",
+		"synonym":"inapplicable",
+		"CAS":"inapplicable"
+	},
+	"measurementMatrixRelationship": "of the",
+	"matrix": "water body",
+	"organism":
+	{
+		"taxon":"inapplicable",
+		"aphiaID":"inapplicable",
+		"name":"inapplicable",
+		"gender":"inapplicable",
+		"stage":"inapplicable",
+		"part":"inapplicable",
+		"specifics":"inapplicable"
+	},
+	"technique":"unspecified",
+	"definition":"The quantity of dissolved ions (predominantly salt in seawater) expressed on a scale (PSS-78) based on the conductivity ratio of a seawater sample to a standard KCl solution."
+}

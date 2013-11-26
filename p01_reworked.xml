@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+    xmlns:nvsc="http://vocab.nerc.ac.uk/classes/classes.xml#"
+    xmlns:nvsp="http://vocab.nerc.ac.uk/properties/properties.xml#"
+    xmlns:obs="http://def.seegrid.csiro.au/isotc211/iso19156/2011/observation#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:wq="http://environment.data.gov.au/water/quality/def/op#">
+    
+    <skos:Concept rdf:about="http://vocab.nerc.ac.uk/collection/P01/current//">
+        <skos:prefLabel xml:lang="en">
+            
+        </skos:prefLabel>
+        <skos:altLabel xml:lang="en">
+            
+        </skos:altLabel>
+        <skos:definition xml:lang="en">
+            
+        </skos:definition>
+        <dcterms:identifier>
+            
+        </dcterms:identifier>
+        <skos:notation>
+            
+        </skos:notation>
+        <owl:versionInfo>
+            
+        </owl:versionInfo>
+        <dcterms:date>
+            
+        </dcterms:date>
+        <skos:note xml:lang="en">
+            
+        </skos:note>
+        <owl:deprecated>
+            
+        </owl:deprecated>
+        <skos:broader />
+        <skos:related />
+        
+        
+        <!-- Additions -->
+        
+        <obs:observedProperty rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+ 
+        </obs:observedProperty>
+        <wq:objectOfInterest rdf:resource="#substance" />
+        <nvsp:measurementMatrixRelationship rdf:resource="#matrix" />
+        <wq:matrix rdf:resource="#matrix" />
+        <wq:objectOfInterest rdf:resource="#organism" />
+        <wq:procedure rdf:resource="#technique" />
+        <rdf:type rdf:resource="http://environment.data.gov.au/water/quality/def/op#PropertyKind" />
+    </skos:Concept>
+ 
+<!-- Chemical Substance -->
+    
+    <skos:Concept rdf:about="#substance">
+        <skos:prefLabel>
+            
+        </skos:prefLabel>
+        <skos:altLabel>
+            
+        </skos:altLabel>
+        <skos:notation rdf:datatype="http://vocab.nerc.ac.uk/datatypes/datatypes.xml#CASNumber">
+            
+        </skos:notation>
+        <dcterms:type rdf:resource="http://bio2rdf.org/chebi:ChemicalSubstance" />
+        <rdf:type rdf:resource="http://environment.data.gov.au/water/quality/def/op#SubstanceOrTaxon" />
+    </skos:Concept>
+
+<!-- Organism -->
+
+    <skos:Concept rdf:about="#organism">
+        <dwc:ScientificName>
+            
+        </dwc:ScientificName>
+        <skos:notation rdf:datatype="http://vocab.nerc.ac.uk/datatypes/datatypes.xml#AphiaID">
+            
+        </skos:notation>
+        <dwc:VernacularName>
+            
+        </dwc:VernacularName>
+        <dwc:sex>
+            
+        </dwc:sex>
+        <dwc:lifeStage>
+            
+        </dwc:lifeStage>
+        <nvsc:Part>
+            
+        </nvsc:Part>
+        <dwc:occurrenceRemarks>
+            
+        </dwc:occurrenceRemarks>
+        <dcterms:type rdf:resource="http://rs.tdwg.org/dwc/terms/DarwinRecordSet" />
+        <rdf:type rdf:resource="http://environment.data.gov.au/water/quality/def/op#SubstanceOrTaxon" />
+    </skos:Concept>
+    
+ <!-- Matrix -->
+    <skos:Concept rdf:about="#matrix">
+        <skos:prefLabel xml:lang="en">
+            
+        </skos:prefLabel>
+        <rdf:type rdf:resource="http://vocab.nerc.ac.uk/classes/classes.xml#Matrix" />
+    </skos:Concept>
+    
+ <!-- Technique -->
+    <skos:Concept rdf:about="#technique">
+        <skos:prefLabel xml:lang="en">
+            
+        </skos:prefLabel>
+        <rdf:type rdf:resource="http://vocab.nerc.ac.uk/classes/classes.xml#Technique" />
+    </skos:Concept>
+</rdf:RDF>
